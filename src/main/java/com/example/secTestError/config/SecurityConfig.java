@@ -20,7 +20,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	private String someProp;
 
 	@Autowired
-	//@Lazy <-- uncomment this line and the test works!
+//	@Lazy //<-- uncomment this line and the test works!
 	private MyAuthSuccessHandler myAuthSuccessHandler;
 
 	@Override
